@@ -1,0 +1,50 @@
+#include"tree.h"
+using namespace std;
+int main()
+{
+//    cout<<"二叉树展示如下："<<endl;
+//    tree *t=Creat_tree();
+//    print(t);
+//    cout<<"先序线索化后先序遍历如下："<<endl;
+//    Preorder_tree(t);
+//    Pre_ergodic(t);
+//    tree *t1=Creat_tree();
+//    cout<<"后续线索化后序遍历如下："<<endl;
+//    Postorder_tree(t1);
+//    Post_ergodic(t1);
+//    cout<<"请输入回车继续："<<endl;
+//    cin.get();
+//    tree*t2=Creat_tree();
+//    cout<<"二叉树显示如下："<<endl;
+//    print(t2);
+//    cout<<"转化后的森林如下："<<endl;
+//    forest *f2=NULL;
+//    tree_to_forest(t2,f2);
+//    print(f2);
+//    cout<<"森林显示如下："<<endl;
+//    forest*f3=Creat_forest();
+//    cout<<"森林显示如下："<<endl;
+//    print(f3);
+//    cout<<"转化后的二叉树如下:"<<endl;
+//    tree*t3=NULL;
+//    forest_to_tree(f3, t3);
+//    print(t3);
+//    cout<<"请输入回车继续："<<endl;
+//    cin.get();
+    cout<<"根据文本生成的哈夫曼树如下"<<endl;
+    huffman_tree* h=Creat_huffman_tree();
+    print(h);
+    cout<<"k叉哈夫曼编码实例如下："<<endl;
+    Txt_huffman_encoding();
+    cout<<"源文件已编译。"<<endl;
+    cout<<"K叉哈夫曼树解码实例如下："<<endl;
+    Txt_huffman_decoding(h);
+    cout<<"文件已翻译。"<<endl;
+//    cout<<"请输入回车继续："<<endl;
+//    cin.get();
+//    cout<<"动态哈夫曼树实例如下："<<endl;
+//    adp_huffman_tree_Encoding();
+//    cout<<"源文件已编译。"<<endl;
+//    adp_huffman_tree_Decoding();
+//    cout<<"文件已翻译。"<<endl;
+}
